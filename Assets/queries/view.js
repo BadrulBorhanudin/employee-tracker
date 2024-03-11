@@ -108,11 +108,12 @@ async function viewDepartmentBudget() {
     });
 
     const [result] = await query(
-      'SELECT SUM(salary) AS total_budget FROM role WHERE department_id = ?',
+      'SELECT IFNULL(SUM(salary), 0) AS total_budget FROM role WHERE department_id = ?',
       [departmentId]
     );
+
     console.log(
-      `Total utilized budget for the department: $${result[0].total_budget}`
+      `Total utilized budget for the department: $${result.total_budget}`
     );
   } catch (error) {
     console.error('Error viewing department budget:', error.message);

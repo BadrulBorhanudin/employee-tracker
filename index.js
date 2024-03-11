@@ -1,6 +1,5 @@
-const mysql = require('mysql2');
 const inquirer = require('inquirer');
-const { query, db } = require('./Assets/queries/db');
+const { db } = require('./Assets/queries/db');
 const { addDepartment, addRole, addEmployee } = require('./Assets/queries/add');
 const {
   deleteDepartment,
