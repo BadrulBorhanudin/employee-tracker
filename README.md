@@ -84,6 +84,6 @@ As the image illustrates, your schema should contain the following three tables:
 
 ## Notes
 
-- [The URL of the walkthtough video of the application.](https://1drv.ms/v/s!AhjTQobLPW72riLZgoozemYxrp4g)
+- [The URL of the walkthrough video of the application.](https://1drv.ms/v/s!AhjTQobLPW72riLZgoozemYxrp4g)
 
 - [The URL of the GitHub repository, with a unique name and a README describing the project.](https://github.com/BadrulBorhanudin/employee-tracker)
