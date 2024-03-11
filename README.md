@@ -42,15 +42,15 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 The following video shows an example of the application being used from the command line:
 
-[![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./Assets/12-sql-homework-video-thumbnail.png)](https://2u-20.wistia.com/medias/2lnle7xnpk)
+[![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./Assets/images/12-sql-homework-video-thumbnail.png)](https://2u-20.wistia.com/medias/2lnle7xnpk)
 
 ## Getting Started
 
-I’ll need to use the [MySQL2 package](https://www.npmjs.com/package/mysql2) to connect to your MySQL database and perform queries, and the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4) to interact with the user via the command line.
+I’ll need to use the [MySQL2 package](https://www.npmjs.com/package/mysql2) to connect to my MySQL database and perform queries, and the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4) to interact with the user via the command line.
 
-Design the database schema as shown in the following image:
+The database schema is designed as shown in the following image:
 
-![Database schema includes tables labeled “employee,” role,” and “department.”](./Assets/12-sql-homework-demo-01.png)
+![Database schema includes tables labeled “employee,” role,” and “department.”](./Assets/images/12-sql-homework-demo-01.png)
 
 As the image illustrates, your schema should contain the following three tables:
 
@@ -84,8 +84,6 @@ As the image illustrates, your schema should contain the following three tables:
 
 ## Notes
 
-You are required to submit BOTH of the following for review:
+- [The URL of the walkthtough video of the application.]()
 
-- A walkthrough video demonstrating the functionality of the application.
-
-- The URL of the GitHub repository, with a unique name and a README describing the project.
+- [The URL of the GitHub repository, with a unique name and a README describing the project.](https://github.com/BadrulBorhanudin/employee-tracker)
