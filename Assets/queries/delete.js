@@ -1,4 +1,4 @@
-const { query } = require('../../index');
+const { query } = require('./db');
 const inquirer = require('inquirer');
 
 async function deleteDepartment() {

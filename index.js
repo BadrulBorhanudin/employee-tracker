@@ -1,6 +1,6 @@
-// index.js
 const mysql = require('mysql2');
 const inquirer = require('inquirer');
+const { query, db } = require('./Assets/queries/db');
 const { addDepartment, addRole, addEmployee } = require('./Assets/queries/add');
 const {
   deleteDepartment,
@@ -19,27 +19,6 @@ const {
   updateEmployeeRole,
   updateEmployeeManager,
 } = require('./Assets/queries/update');
-
-const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'password',
-  database: 'employee_tracker_db',
-});
-
-function query(sql, values = []) {
-  return new Promise((resolve, reject) => {
-    db.query(sql, values, (error, results) => {
-      if (error) {
-        reject(error);
-        return;
-      }
-      resolve(results);
-    });
-  });
-}
-
-module.exports = { query };
 
 async function main() {
   try {
