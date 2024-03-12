@@ -52,7 +52,7 @@ The database schema is designed as shown in the following image:
 
 ![Database schema includes tables labeled “employee,” role,” and “department.”](./Assets/images/12-sql-homework-demo-01.png)
 
-As the image illustrates, your schema should contain the following three tables:
+As the image illustrates, my schema should contain the following three tables:
 
 - `department`
 
